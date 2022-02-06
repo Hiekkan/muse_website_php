@@ -4,7 +4,7 @@ Project from the ÜK307 with some first experiences in painful PHP
 # How to setup
 
 <ol>
-  <li>Install <a src="https://www.apachefriends.org/index.html">XAMPP</a></li>
+  <li>Install <a href="https://www.apachefriends.org/index.html">XAMPP</a></li>
   <li>Place the files under <b>xampp\htdocs</b></li>
   <li>Configure phpMyAdmin</li>
   <li>Create two Databases called "login_system" & "message_system"</li>
@@ -37,7 +37,7 @@ msgmessage LONGTEXT NOT NULL
 
 ## Check if phpMyAdmin Login is correct
 
-In file [dbh.inc.php]((https://github.com/Hiekkan/muse_website_php/tree/main/website/include/dbh.inc.php)) & [dbh2.inc.php]((https://github.com/Hiekkan/muse_website_php/tree/main/website/include/dbh2.inc.php)) check if username and passwort is the same in phpmyadmin
+In file [dbh.inc.php](https://github.com/Hiekkan/muse_website_php/tree/main/website/include/dbh.inc.php) & [dbh2.inc.php](https://github.com/Hiekkan/muse_website_php/tree/main/website/include/dbh2.inc.php) check if username and passwort is the same in phpmyadmin
 
 ```php
 $dbBenutzer = "root";
